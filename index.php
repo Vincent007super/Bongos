@@ -32,6 +32,19 @@
     </header>
 
     <main>
+        <div class="wrapper1">
+            <div class="wrapper2">
+                <div class="wrapper4">
+                    <h5>Recepten van de dag</h5>
+                    <img src="media/img/pannenkoek.jpg" alt="" srcset="">
+                </div>
+                <div class="wrapper5"></div>
+            </div>
+            <div class="wrapper3">
+
+            </div>
+        </div>
+    </main>
     <script src="script/script.js"></script>
 </body>
 
