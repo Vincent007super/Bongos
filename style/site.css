@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #ffffff78;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,5 +86,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
   }
 
