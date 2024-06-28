@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
 
 header {
@@ -24,8 +23,17 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a{
     font-family: Lobster;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pages {
+    transition: all 1s;
 }
 
 #menu_pos {
@@ -39,6 +47,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #searcher {
     width: 50vw;
+}
+
+#menu {
+    display: wrapper;
+    justify-content: space-around;
+    min-width: 10vw;
 }
 
 #buttons {
@@ -75,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #ffffff78;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,3 +102,14 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
   }
 
+<<<<<<< Updated upstream
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+=======
+.pages:hover {
+    transform: scale(1.5);
+}
+>>>>>>> Stashed changes

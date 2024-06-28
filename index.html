@@ -13,20 +13,18 @@
 
 <body>
     <header>
-        <div id="menu_pos" onclick="menuOpen()">
-            &#9776;
-        </div>
         <div id="logo">
-            <h3>De Culinaire Crew</h3>
+            <a href="#" class="pages">De Culinaire Crew</a>
         </div>
-        <div id="searcher">
-            <input type="search" name="Searchbar" id="searcher" placeholder="Zoek uw favoeriete recept op!">
+        <div id="menu">
+            <a href="pages/about-us.html" class="pages">About us</a>
+            <a href="pages/Recepten.html" class="pages">Recepten</a>
         </div>
         <div id="buttons">
-            <button id="inlog">
+            <button id="inlog" onclick="inlog()">
                 Inloggen
             </button>
-            <button id="aboneer">
+            <button id="aboneer" onclick="abonneer()">
                 Aboneren
             </button>
         </div>
@@ -40,19 +38,21 @@
                     <div class="container">
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"> <img src="media/img/pannenkoek.jpg" alt="" srcset=""></div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                                <div class="swiper-slide">Slide 4</div>
-                                <div class="swiper-slide">Slide 5</div>
-                                <div class="swiper-slide">Slide 6</div>
-                                <div class="swiper-slide">Slide 7</div>
-                                <div class="swiper-slide">Slide 8</div>
-                                <div class="swiper-slide">Slide 9</div>
+                              <div class="swiper-slide"> <img src="media/img/pannenkoek.jpg" alt="" srcset=""></div>
+                              <div class="swiper-slide">Slide 2</div>
+                              <div class="swiper-slide">Slide 3</div>
+                              <div class="swiper-slide">Slide 4</div>
+                              <div class="swiper-slide">Slide 5</div>
+                              <div class="swiper-slide">Slide 6</div>
+                              <div class="swiper-slide">Slide 7</div>
+                              <div class="swiper-slide">Slide 8</div>
+                              <div class="swiper-slide">Slide 9</div>
                             </div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-pagination"></div>
+                          </div>
+                       
                         </div>
                     </div>
                 </div>
