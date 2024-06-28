@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#menu_pos {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#logo h3 {
+  margin: 0;
+}
+
+#searcher input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+#buttons button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.wrapper1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper2 {
+  flex: 2;
+}
+
+.wrapper4 {
+  margin-bottom: 20px;
+}
+
+.wrapper4 img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper3 {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.recipe {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe h4 {
+  margin: 10px 0 5px;
+}
