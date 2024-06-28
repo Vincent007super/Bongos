@@ -35,7 +35,7 @@ header {
 }
 
 main {
-  padding: 20px;
+  padding: 30px;
 }
 
 .wrapper1 {
@@ -52,7 +52,7 @@ main {
 }
 
 .wrapper4 img {
-  width: 100%;
+  width: 30%;
   height: auto;
 }
 
@@ -69,7 +69,7 @@ main {
 }
 
 .recipe img {
-  width: 100%;
+  width: 30%;
   height: auto;
 }
 
